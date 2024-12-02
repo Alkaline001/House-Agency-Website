@@ -1,0 +1,130 @@
+
+        
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: url(interior-design-g306460dff_1920.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header Styling */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: flex;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Search Section */
+.search-section {
+    background-color: #007bff;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.search-section h2 {
+    margin-bottom: 20px;
+}
+
+.search-section form input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.search-section form button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-section form button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Properties Section */
+.properties-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.properties-list {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.property-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.property-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.property-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    display: inline-block;
+  }
+
